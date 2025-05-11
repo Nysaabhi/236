@@ -27523,6 +27523,42 @@ function addProviderPageStyles() {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+.provider-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0 120px;
+  }
+  
+.provider-image-carousel {
+    height: 350px;
+    border-radius: 20px;
+  }
+    
+  .social-links {
+    gap: 18px;
+  }
+  
+  .social-link {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3em;
+  }
+  
+  .provider-actions {
+    max-width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px 20px 0 0; /* This curves only the top corners */
+  }
+  
+  .primary-action,
+  .secondary-action {
+    padding: 16px;
+    font-size: 1.05em;
+  }
+}
+
 @media (min-width: 1024px) {
 .provider-content {
     max-width: 900px;
