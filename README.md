@@ -10449,6 +10449,61 @@ function showJobsOverlay() {
         grid-column: 1 / -1;
       }
     }
+
+    /* ===== Laptop & Desktop (1025px+) - Compact Version ===== */
+@media (min-width: 1025px) {
+  .jobs-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 16px;
+    padding-bottom: 120px;
+  }
+
+  .jobs-card {
+    border-radius: 14px;
+  }
+
+  .jobs-card-image {
+    height: 160px;
+  }
+
+  .jobs-card-content {
+    padding: 16px;
+  }
+
+  .jobs-card-title {
+    font-size: 1.15em;
+    margin-bottom: 8px;
+  }
+
+  .jobs-card-company {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+  }
+
+  .jobs-card-location {
+    font-size: 0.8em;
+    margin-bottom: 8px;
+  }
+
+  .jobs-card-salary {
+    font-size: 0.9em;
+    margin-bottom: 12px;
+  }
+
+  .jobs-card-meta {
+    font-size: 0.8em;
+  }
+
+  .jobs-card-type {
+    padding: 3px 8px;
+    font-size: 0.75em;
+  }
+
+  .jobs-card-date {
+    font-size: 0.8em;
+  }
+}
+
   `;
   document.head.appendChild(style);
 }
