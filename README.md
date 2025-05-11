@@ -170,7 +170,7 @@ body {
     align-items: flex-start;
     gap: 12px;
     margin-bottom: 16px;
-    width: 30%;
+    width: 25%;
     max-width: 100%;
 }
 
@@ -797,7 +797,7 @@ body > h1:first-of-type:not(.heading) {
 
 @media (min-width: 1025px) {
   .welcome-message {
-        width: 30%;
+        width: 25%;
     }
 }
 
