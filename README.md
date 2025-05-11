@@ -797,7 +797,7 @@ body > h1:first-of-type:not(.heading) {
 
 @media (min-width: 1025px) {
   .welcome-message {
-        width: 15%;
+        width: 30%;
     }
 }
 
