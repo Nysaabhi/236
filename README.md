@@ -12091,6 +12091,61 @@ function showCouponOverlay() {
         padding-bottom: 180px;
       }
     }
+
+    /* ===== Laptop & Desktop (1025px+) - Compact Version ===== */
+@media (min-width: 1025px) {
+  .coupon-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 16px;
+    padding-bottom: 120px;
+  }
+
+  .coupon-card {
+    border-radius: 14px;
+  }
+
+  .coupon-card-image {
+    height: 180px;
+  }
+
+  .coupon-card-content {
+    padding: 16px;
+  }
+
+  .coupon-card-title {
+    font-size: 1.15em;
+    margin-bottom: 8px;
+  }
+
+  .coupon-card-description {
+    font-size: 0.85em;
+    margin-bottom: 12px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .coupon-card-meta {
+    font-size: 0.8em;
+  }
+
+  .coupon-code-container {
+    padding: 8px 12px;
+    margin-top: 12px;
+  }
+
+  .coupon-code {
+    font-size: 1em;
+  }
+
+  .copy-button {
+    padding: 4px 8px;
+    font-size: 0.85em;
+  }
+}
+
+
   `;
   document.head.appendChild(style);
 }
