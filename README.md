@@ -170,7 +170,7 @@ body {
     align-items: flex-start;
     gap: 12px;
     margin-bottom: 16px;
-    width: 25%;
+    width: 20%;
     max-width: 100%;
 }
 
