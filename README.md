@@ -791,11 +791,11 @@ body > h1:first-of-type:not(.heading) {
       /* ===== Tablet (768px - 1024px) ===== */
 @media (min-width: 768px) and (max-width: 1024px) {
   .welcome-message {
-        width: 30%;
+        width: 20%;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) {
   .welcome-message {
         width: 20%;
     }
