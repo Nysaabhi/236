@@ -795,9 +795,9 @@ body > h1:first-of-type:not(.heading) {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   .welcome-message {
-        width: 100px;
+        width: 25%;
     }
 }
 
